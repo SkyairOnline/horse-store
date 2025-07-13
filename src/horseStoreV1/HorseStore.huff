@@ -49,7 +49,7 @@
     sload                                   // [value]
 
     // 3. Return the value
-    0x00 mstore                             // [0, value]
+    0x00                                    // [0, value]
     mstore                                  // []                   // Memory: [value]
     0x20 0x00 return                        // []
 }
